@@ -1,0 +1,21 @@
+
+.navbar {
+  .navbar-start {
+    flex-grow: 1;
+    justify-content: center;
+  }
+
+  .navbar-end {
+    font-size: 10pt;
+    font-weight: bold;
+  }
+
+  .navbar-item {
+    border-radius: 0 !important;
+    
+    &.is-active {
+      border-bottom: 1px solid black;
+    }
+  }
+
+}
