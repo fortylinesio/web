@@ -1,3 +1,4 @@
+@import '../../variables.scss';
 
 .cover {
   max-width: 2000px;
@@ -20,7 +21,6 @@
         border-radius: 16px;
         color: #F5ECE7;
         background-color: #959595;
-        transition: background-color ease 0.2s;
 
         &:not(:last-child) {
           margin-bottom: 12px;
@@ -28,21 +28,7 @@
 
         &:hover {
           color: white;
-          &.facebook {
-            background-color: #3b5998;
-          }
-          &.twitter {
-            background-color: #1da1f2;
-          }
-          &.instagram {
-            background-color: #405de6;
-          }
-          &.telegram {
-            background-color: #0088cc;
-          }
-          &.whatsapp {
-            background-color: #128c7e;
-          }
+          background-color: $primary;
         }
       }
     }
