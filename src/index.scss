@@ -4,6 +4,9 @@
 
 $family-sans-serif: 'Product Sans Regular';
 
+$primary: #FF473F;
+$link: $primary;
+
 // Import only what you need from Bulma
 @import '../node_modules/bulma/sass/utilities/_all.sass';
 @import '../node_modules/bulma/sass/base/_all.sass';
@@ -13,3 +16,31 @@ $family-sans-serif: 'Product Sans Regular';
 @import '../node_modules/bulma/sass/grid/_all.sass';
 @import '../node_modules/bulma/sass/helpers/_all.sass';
 @import '../node_modules/bulma/sass/layout/_all.sass';
+
+.left-spaced {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  &:not(:last-child) {
+    margin-bottom: 32px;
+  }
+
+  &::before {
+    content: '';
+    display: block;
+    min-width: 128px;
+    height: 2px;
+    margin-right: 32px;
+  }
+  
+  &.with-line {
+    &::before {
+      background-color: black;
+    }
+  }
+
+  & > .child {
+    flex: 1;
+  }
+}

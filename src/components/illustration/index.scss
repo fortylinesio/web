@@ -1,0 +1,43 @@
+
+.illustration {
+  min-width: 400px;
+  max-width: 600px;
+  height: 512px;
+  margin: 0 auto;
+  position: relative;
+
+  & > .part-1 {
+    position: absolute;
+    bottom: -10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    background-image: url(./part-1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  & > .part-2 {
+    position: absolute;
+    top: 10%;
+    width: 25%;
+    height: 25%;
+    background-image: url(./part-2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  & > .part-3 {
+    position: absolute;
+    top: -10%;
+    left: 10%;
+    width: 90%;
+    height: 90%;
+    background-image: url(./part-3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}

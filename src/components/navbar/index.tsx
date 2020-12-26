@@ -21,7 +21,7 @@ export const Navbar = () => {
   };
 
   return (
-    <div className='navbar is-spaced'>
+    <div className='navbar is-transparent is-spaced'>
       <div className='container'>
         <div className='navbar-brand'>
           <div className='navbar-item'>

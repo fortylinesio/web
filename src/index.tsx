@@ -12,6 +12,7 @@ const App = () => {
   return (
     <div className=''>
       <Components.Navbar />
+      <Components.Cover />
     </div>
   );
 };

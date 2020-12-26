@@ -7,14 +7,14 @@
 
   .navbar-end {
     font-size: 10pt;
-    font-weight: bold;
   }
 
   .navbar-item {
     border-radius: 0 !important;
+    border-bottom: 2px solid transparent;
     
     &.is-active {
-      border-bottom: 1px solid black;
+      border-bottom: 2px solid black;
     }
   }
 

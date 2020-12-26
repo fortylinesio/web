@@ -9,6 +9,9 @@ const en = {
   'navigation_lang_en': 'EN',
   'navigation_lang_de': 'DE',
   'navigation_lang_ru': 'РУ',
+
+  'cover_title': 'We build your<br />innovational future',
+  'cover_contact_us': 'Contact Us',
 };
 
 const de = {
@@ -21,6 +24,9 @@ const de = {
   'navigation_lang_en': 'EN',
   'navigation_lang_de': 'DE',
   'navigation_lang_ru': 'РУ',
+
+  'cover_title': 'Wir bauen Ihre<br />innovative Zukunft',
+  'cover_contact_us': 'Kontaktiere uns',
 };
 
 const ru = {
@@ -33,6 +39,9 @@ const ru = {
   'navigation_lang_en': 'EN',
   'navigation_lang_de': 'DE',
   'navigation_lang_ru': 'РУ',
+
+  'cover_title': 'Мы строим ваше<br />инновационное будущее',
+  'cover_contact_us': 'Связаться с нами',
 };
 
 const Strings = {

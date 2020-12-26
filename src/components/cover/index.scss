@@ -1,0 +1,50 @@
+
+.cover {
+  max-width: 2000px;
+  margin: 0 auto;
+  background-image: -webkit-linear-gradient(-80deg, transparent 50%, #F5ECE7 50%);
+
+  & > .container {
+    position: relative;
+
+    & > .social-icons {
+      position: absolute;
+      bottom: 64px;
+      right: 16px;
+      display: flex;
+      flex-direction: column;
+
+      & > .icon {
+        width: 32px;
+        height: 32px;
+        border-radius: 16px;
+        color: #F5ECE7;
+        background-color: #959595;
+        transition: background-color ease 0.2s;
+
+        &:not(:last-child) {
+          margin-bottom: 12px;
+        }
+
+        &:hover {
+          color: white;
+          &.facebook {
+            background-color: #3b5998;
+          }
+          &.twitter {
+            background-color: #1da1f2;
+          }
+          &.instagram {
+            background-color: #405de6;
+          }
+          &.telegram {
+            background-color: #0088cc;
+          }
+          &.whatsapp {
+            background-color: #128c7e;
+          }
+        }
+      }
+    }
+  }
+}
