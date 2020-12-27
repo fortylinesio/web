@@ -13,6 +13,17 @@
 @import '../node_modules/bulma/sass/helpers/_all.sass';
 @import '../node_modules/bulma/sass/layout/_all.sass';
 
+.container {
+  max-width: 1000px !important;
+}
+
+@media(max-width: 767px) {
+  .reverse-on-mobile {
+    flex-direction: column-reverse;
+    display: flex;
+  }
+}
+
 .left-spaced {
   display: flex;
   flex-direction: row;

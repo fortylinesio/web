@@ -13,6 +13,9 @@ const App = () => {
     <div className=''>
       <Components.Navbar />
       <Components.Cover />
+      <Components.WhatWeDo />
+      <Components.Services />
+      <Components.Projects />
     </div>
   );
 };

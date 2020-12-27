@@ -1,13 +1,11 @@
-import * as Components from '../';
 import * as ReactRedux from 'react-redux';
-
+import * as Components from '../';
 import * as AppRedux from '../../redux';
-import Strings from '../../strings';
 
 import './index.scss';
 
 export const Cover = () => {
-  const lang = ReactRedux.useSelector((state: AppRedux.AppState) => state.language);
+  const strings = ReactRedux.useSelector((state: AppRedux.AppState) => state.strings);
 
   return (
     <div className='cover'>
@@ -18,11 +16,11 @@ export const Cover = () => {
           </div>
           <div className='column'>
             <div className='left-spaced with-line'>
-              <div className='subtitle is-3' dangerouslySetInnerHTML={{ __html: Strings[lang].cover_title }} />
+              <div className='subtitle is-3' dangerouslySetInnerHTML={{ __html: strings.cover_title }} />
             </div>
             <div className='left-spaced'>
               <button className='button is-primary is-medium'>
-                {Strings[lang].cover_contact_us}
+                {strings.cover_contact_us}
               </button>
             </div>
           </div>

@@ -1,32 +1,42 @@
+import * as Strings from '../strings';
 
 export interface AppState {
-  language: 'en' | 'de' | 'ru';
+  lang: Strings.Lang,
+  strings: Strings.Type,
 }
 
 export const SET_LANGUAGE = '@SET_LANGUAGE';
 
 interface SetLanguageAction {
   type: typeof SET_LANGUAGE;
-  targetLanguage: 'en' | 'de' | 'ru';
+  targetLang: Strings.Lang;
 }
 
 export type AppActionTypes = SetLanguageAction
 
-export const SetLanguage = (targetLanguage: 'en' | 'de' | 'ru'): SetLanguageAction => ({
+export const SetLanguage = (targetLang: Strings.Lang): SetLanguageAction => ({
   type: SET_LANGUAGE,
-  targetLanguage,
+  targetLang: targetLang,
 })
 
 const defaultState: AppState = {
-  language: 'en',
+  lang: 'en',
+  strings: Strings.en,
 }
 
 export const appReducer = (state: AppState = defaultState, action: AppActionTypes): AppState => {
   switch (action.type) {
     case SET_LANGUAGE:
+      var strings: Strings.Type
+      switch (action.targetLang) {
+        case 'ru': strings = Strings.ru; break;
+        case 'de': strings = Strings.de; break;
+        default: strings = Strings.en; break;
+      }
       return {
         ...state,
-        language: action.targetLanguage,
+        lang: action.targetLang,
+        strings,
       };
     default:
       return state;
