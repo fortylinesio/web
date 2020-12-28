@@ -22,7 +22,7 @@ const ru = {
   /**
    * What we do?
    */
-  'what_we_do_title': 'What we do?',
+  'what_we_do_title': 'Что мы делаем?',
   'what_we_do_first_title': 'Build the right thing.',
   'what_we_do_first_subtitle': 'Our top experts will use a mind map to help you think through your concept and find the right way to create it.',
   'what_we_do_second_title': 'Launch faster, with peace of mind.',
