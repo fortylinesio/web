@@ -58,10 +58,54 @@ const de = {
   'team_title': 'Team',
   'team_members': [
     {
-      'name': 'Ajybek Sheranov',
+      'first_name': 'Azhybek',
+      'last_name': 'Sheranov',
+      'age': 22,
       'position': 'CEO',
-      'profile_url': 'https://pbs.twimg.com/profile_images/474564563124228096/NFJPyEtS.jpeg',
-    }
+      'profile_url': 'https://picsum.photos/300/400',
+    },
+    {
+      'first_name': 'Maria',
+      'last_name': 'Limareva',
+      'age': 23,
+      'position': 'UI/UX Designer',
+      'profile_url': 'https://picsum.photos/300/400',
+    },
+    {
+      'first_name': 'Aidar',
+      'last_name': 'Aibekov',
+      'age': 22,
+      'position': 'Backend Engineer',
+      'profile_url': 'https://picsum.photos/300/400',
+    },
+    {
+      'first_name': 'Meerim',
+      'last_name': 'Tynchtykova',
+      'age': 22,
+      'position': 'UI/UX Designer',
+      'profile_url': 'https://picsum.photos/300/400',
+    },
+    {
+      'first_name': 'Farkhat',
+      'last_name': 'Tashmatov',
+      'age': 23,
+      'position': 'Backend Engineer',
+      'profile_url': 'https://picsum.photos/300/400',
+    },
+    {
+      'first_name': 'Almira',
+      'last_name': 'Sagynbek',
+      'age': 21,
+      'position': 'Frontend Developer',
+      'profile_url': 'https://picsum.photos/300/400',
+    },
+    {
+      'first_name': 'Vlad',
+      'last_name': 'Pak',
+      'age': 23,
+      'position': 'Frontend Developer',
+      'profile_url': 'https://picsum.photos/300/400',
+    },
   ],
 
   /**

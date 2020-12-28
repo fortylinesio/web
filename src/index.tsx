@@ -16,6 +16,7 @@ const App = () => {
       <Components.WhatWeDo />
       <Components.Services />
       <Components.Projects />
+      <Components.Team />
     </div>
   );
 };
