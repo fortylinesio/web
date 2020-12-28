@@ -25,6 +25,16 @@
     }
   }
 
+  @media(max-width: 767px) {
+    .navigation {
+      flex-direction: column;
+    }
+
+    .item {
+      padding: 16px !important;
+    }
+  }
+
   .links {
     display: flex;
     flex-direction: row;
