@@ -4,7 +4,6 @@ import * as Redux from 'redux';
 import * as ReactRedux from 'react-redux';
 
 import './index.scss';
-import 'swiper/swiper.scss';
 
 import * as AppRedux from './redux';
 import * as Components from './components';

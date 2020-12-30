@@ -22,6 +22,17 @@ export const Footer = () => {
           </div>
           <p dangerouslySetInnerHTML={{ __html: strings.footer_copyright }} />
         </div>
+        <div style={{ height: 32 }} />
+        <div className='has-text-centered' style={{ lineHeight: '16px', color: '#aaa' }}>
+          <div>
+            <span>&lt;</span>
+            <span>&gt;</span>
+          </div>
+          <div>by</div>
+          <a href='https://github.com/aimazh' target='_blank' rel='noreferrer' style={{ color: '#aaa' }}>
+            <strong>@aimazh</strong>
+          </a>
+        </div>
       </div>
     </div>
   )

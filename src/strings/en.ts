@@ -62,21 +62,32 @@ const en = {
       'last_name': 'Sheranov',
       'age': 22,
       'position': 'CEO',
-      'profile_url': 'https://picsum.photos/300/400',
+      'profile_url': '/team/azhybek-sheranov.jpeg',
+      'links': [
+        { media: 'linkedin', url: 'https://www.linkedin.com/in/ажыбек-шеранов-6095b01b4' },
+      ],
     },
     {
       'first_name': 'Maria',
       'last_name': 'Limareva',
       'age': 23,
       'position': 'UI/UX Designer',
-      'profile_url': 'https://picsum.photos/300/400',
+      'profile_url': '/team/maria-limareva.jpeg',
+      'links': [
+        { media: 'linkedin', url: 'https://www.linkedin.com/in/maria-limareva-2967371b9/' },
+        { media: 'behance', url: 'https://www.behance.net/mariaLim' },
+      ],
     },
     {
       'first_name': 'Aidar',
       'last_name': 'Aibekov',
       'age': 22,
       'position': 'Backend Engineer',
-      'profile_url': 'https://picsum.photos/300/400',
+      'profile_url': '/team/aidar-aibekov.jpeg',
+      'links': [
+        { media: 'linkedin', url: 'https://www.linkedin.com/in/aidar-aibekov-1b0687132/' },
+        { media: 'github', url: 'https://github.com/aidar4j' },
+      ],
     },
     {
       'first_name': 'Meerim',
@@ -84,13 +95,19 @@ const en = {
       'age': 22,
       'position': 'UI/UX Designer',
       'profile_url': 'https://picsum.photos/300/400',
+      'links': [
+      ],
     },
     {
       'first_name': 'Farkhat',
       'last_name': 'Tashmatov',
       'age': 23,
       'position': 'Backend Engineer',
-      'profile_url': 'https://picsum.photos/300/400',
+      'profile_url': '/team/farkhat-tashmatov.jpeg',
+      'links': [
+        { media: 'linkedin', url: 'https://www.linkedin.com/in/farkhat-tashmatov-8626791a8/' },
+        { media: 'github', url: 'https://github.com/Farkhat' },
+      ],
     },
     {
       'first_name': 'Almira',
@@ -98,6 +115,8 @@ const en = {
       'age': 21,
       'position': 'Frontend Developer',
       'profile_url': 'https://picsum.photos/300/400',
+      'links': [
+      ],
     },
     {
       'first_name': 'Vlad',
@@ -105,6 +124,21 @@ const en = {
       'age': 23,
       'position': 'Frontend Developer',
       'profile_url': 'https://picsum.photos/300/400',
+      'links': [
+        { media: 'linkedin', url: 'https://www.linkedin.com/in/vlad-pak-589452122/' },
+        { media: 'github', url: 'https://github.com/UzVPD' },
+      ],
+    },
+    {
+      'first_name': 'Aibek',
+      'last_name': 'Mazhitov',
+      'age': 27,
+      'position': 'IT Consultant',
+      'profile_url': '/team/aibek-mazhitov.png',
+      'links': [
+        { media: 'linkedin', url: 'https://linkedin.com/in/aimazh' },
+        { media: 'github', url: 'https://github.com/aimazh' },
+      ],
     },
   ],
 
