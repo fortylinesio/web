@@ -6,7 +6,7 @@ import './index.scss';
 export const Contact = () => {
   const strings = ReactRedux.useSelector((state: AppRedux.AppState) => state.strings);
   return (
-    <div className='container contact app-section'>
+    <div id='contacts' className='container contact app-section'>
       <div className='columns'>
         <div className='column'>
           <div className='left-spaced with-line'>

@@ -6,7 +6,7 @@ import './index.scss';
 export const Services = () => {
   const strings = ReactRedux.useSelector((state: AppRedux.AppState) => state.strings);
   return (
-    <div className='container services app-section'>
+    <div id='services' className='container services app-section'>
       <div className='left-spaced with-line'>
         <div className='title is-2' dangerouslySetInnerHTML={{ __html: strings.services_title }} />
       </div>

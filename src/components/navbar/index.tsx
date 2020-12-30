@@ -29,6 +29,17 @@ export const Navbar = () => {
     dispatch(AppRedux.SetLanguage(lang));
   };
 
+  const jumpToContacts = () => {
+    setActive(false);
+    const el = document.getElementById('contacts');
+    if (el) {
+      el.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
+    }
+  }
+
   return (
     <div className='navbar is-transparent'>
       <div className='container'>
@@ -46,21 +57,7 @@ export const Navbar = () => {
         </div>
         <div className='navbar-menu'>
           <div className='navbar-start'>
-            <a className='navbar-item is-active' href='/'>
-              {strings.navigation_link_what_we_do}
-            </a>
-            <a className='navbar-item' href='/'>
-              {strings.navigation_link_services}
-            </a>
-            <a className='navbar-item' href='/'>
-              {strings.navigation_link_projects}
-            </a>
-            <a className='navbar-item' href='/'>
-              {strings.navigation_link_team}
-            </a>
-            <a className='navbar-item' href='/'>
-              {strings.navigation_link_contacts}
-            </a>
+            <Components.NavigationLinks className='navbar-item' />
           </div>
           <div className='navbar-end'>
             <a className={'navbar-item' + (lang === 'en' ? ' is-active' : '')} href='/' onClick={handleLanguageClick('en')}>
@@ -77,16 +74,20 @@ export const Navbar = () => {
       </div>
       <div className={'mobile-menu' + (isActive ? ' is-active' : '')}>
         <div className='languages'>
-          <a className='item is-active' href='/'>{strings.navigation_lang_en}</a>
-          <a className='item' href='/'>{strings.navigation_lang_de}</a>
-          <a className='item' href='/'>{strings.navigation_lang_ru}</a>
+          <a className={'item' + (lang === 'en' ? ' is-active' : '')} href='/' onClick={handleLanguageClick('en')}>
+            {strings.navigation_lang_en}
+          </a>
+          <a className={'item' + (lang === 'de' ? ' is-active' : '')} href='/' onClick={handleLanguageClick('de')}>
+            {strings.navigation_lang_de}
+          </a>
+          <a className={'item' + (lang === 'ru' ? ' is-active' : '')} href='/' onClick={handleLanguageClick('ru')}>
+            {strings.navigation_lang_ru}
+          </a>
         </div>
         <div className='navigation'>
-          <a className='item' href='/'>{strings.navigation_link_what_we_do}</a>
-          <a className='item' href='/'>{strings.navigation_link_services}</a>
-          <a className='item' href='/'>{strings.navigation_link_projects}</a>
-          <a className='item' href='/'>{strings.navigation_link_team}</a>
-          <a className='item' href='/'>{strings.navigation_link_contacts}</a>
+          <Components.NavigationLinks onClick={() => {
+            setActive(false);
+          }} />
         </div>
         <Components.SocialIcons />
         <div className='contacts'>
@@ -95,7 +96,7 @@ export const Navbar = () => {
           <a className='item' href={'mailto:' + strings.contact_email}>{strings.contact_email}</a>
           <div className='item divider' />
           <div className='item'>
-            <button className='button is-medium is-primary'>{strings.cover_contact_us}</button>
+            <button className='button is-medium is-primary' onClick={jumpToContacts}>{strings.cover_contact_us}</button>
           </div>
         </div>
       </div>

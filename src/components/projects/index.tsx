@@ -9,7 +9,7 @@ import ImageChkSnd from './image-chksnd.png';
 export const Projects = () => {
   const strings = ReactRedux.useSelector((state: AppRedux.AppState) => state.strings);
   return (
-    <div className='container projects app-section'>
+    <div id='projects' className='container projects app-section'>
       <div className='left-spaced with-line'>
         <div className='title is-2' dangerouslySetInnerHTML={{ __html: strings.projects_title }} />
       </div>

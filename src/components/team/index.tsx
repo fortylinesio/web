@@ -7,7 +7,7 @@ import './index.scss';
 export const Team = () => {
   const strings = ReactRedux.useSelector((state: AppRedux.AppState) => state.strings);
   return (
-    <div className='container team app-section'>
+    <div id='team' className='container team app-section'>
       <div className='left-spaced with-line'>
         <div className='title is-2' dangerouslySetInnerHTML={{ __html: strings.team_title }} />
       </div>
