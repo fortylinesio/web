@@ -17,7 +17,7 @@ export const Projects = () => {
       <div className='app-section-spacer' />
 
       <div className=''>
-        <div className='columns has-text-centered-mobile is-variable is-8 is-align-items-center'>
+        <div className='columns has-text-centered-mobile is-8 is-align-items-center'>
           <div className='column'>
             <div className='title is-4'>{strings.projects_tezbus_title}</div>
             <div className=''>{strings.projects_tezbus_subtitle}</div>
@@ -29,7 +29,7 @@ export const Projects = () => {
 
         <div className='app-section-spacer' />
 
-        <div className='columns has-text-centered-mobile is-variable is-8 is-align-items-center reverse-on-mobile'>
+        <div className='columns has-text-centered-mobile is-8 is-align-items-center reverse-on-mobile'>
           <div className='column'>
             <img src={ImageChkSnd} />
           </div>

@@ -18,7 +18,7 @@ export const WhatWeDo = () => {
       </div>
 
       <div className=''>
-        <div className='columns has-text-centered-mobile is-variable is-8 is-align-items-center reverse-on-mobile'>
+        <div className='columns has-text-centered-mobile is-8 is-align-items-center reverse-on-mobile'>
           <div className='column'>
             <img src={ImageFirst} />
           </div>
@@ -29,7 +29,7 @@ export const WhatWeDo = () => {
           </div>
         </div>
 
-        <div className='columns has-text-centered-mobile is-variable is-8 is-align-items-center'>
+        <div className='columns has-text-centered-mobile is-8 is-align-items-center'>
           <div className='column'>
             <div className='title is-4'>{strings.what_we_do_second_title}</div>
             <div />
@@ -40,7 +40,7 @@ export const WhatWeDo = () => {
           </div>
         </div>
 
-        <div className='columns has-text-centered-mobile is-variable is-8 is-align-items-center reverse-on-mobile'>
+        <div className='columns has-text-centered-mobile is-8 is-align-items-center reverse-on-mobile'>
           <div className='column'>
             <img src={ImageThird} />
           </div>
@@ -51,7 +51,7 @@ export const WhatWeDo = () => {
           </div>
         </div>
 
-        <div className='columns has-text-centered-mobile is-variable is-8 is-align-items-center'>
+        <div className='columns has-text-centered-mobile is-8 is-align-items-center'>
           <div className='column'>
             <div className='title is-4'>{strings.what_we_do_fourth_title}</div>
             <div />
