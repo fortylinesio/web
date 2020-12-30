@@ -1,6 +1,6 @@
 
 .illustration {
-  min-width: 320px;
+  min-width: calc(320px - 16px * 2);
   max-width: 600px;
   height: 400px;
   margin: 0 auto;

@@ -1,6 +1,7 @@
 import React from 'react';
 import * as ReactRedux from 'react-redux';
 import * as AppRedux from '../../redux';
+import * as Components from '../';
 
 import './index.scss';
 
@@ -12,6 +13,13 @@ export const Navbar = () => {
 
   const [isActive, setActive] = React.useState(false);
 
+  React.useEffect(() => {
+    if (isActive) {
+      window.scrollTo(0, 0);
+    }
+    document.documentElement.style.overflow = isActive ? 'hidden' : 'auto';
+  }, [isActive])
+
   const handleBurgerClick = () => {
     setActive(!isActive)
   }
@@ -22,7 +30,7 @@ export const Navbar = () => {
   };
 
   return (
-    <div className='navbar is-transparent is-spaced'>
+    <div className='navbar is-transparent'>
       <div className='container'>
         <div className='navbar-brand'>
           <div className='navbar-item'>
@@ -36,7 +44,7 @@ export const Navbar = () => {
             <span aria-hidden='true' />
           </div>
         </div>
-        <div className={'navbar-menu' + (isActive ? ' is-active' : '')}>
+        <div className='navbar-menu'>
           <div className='navbar-start'>
             <a className='navbar-item is-active' href='/'>
               {strings.navigation_link_what_we_do}
@@ -64,6 +72,30 @@ export const Navbar = () => {
             <a className={'navbar-item' + (lang === 'ru' ? ' is-active' : '')} href='/' onClick={handleLanguageClick('ru')}>
               {strings.navigation_lang_ru}
             </a>
+          </div>
+        </div>
+      </div>
+      <div className={'mobile-menu' + (isActive ? ' is-active' : '')}>
+        <div className='languages'>
+          <a className='item is-active' href='/'>{strings.navigation_lang_en}</a>
+          <a className='item' href='/'>{strings.navigation_lang_de}</a>
+          <a className='item' href='/'>{strings.navigation_lang_ru}</a>
+        </div>
+        <div className='navigation'>
+          <a className='item' href='/'>{strings.navigation_link_what_we_do}</a>
+          <a className='item' href='/'>{strings.navigation_link_services}</a>
+          <a className='item' href='/'>{strings.navigation_link_projects}</a>
+          <a className='item' href='/'>{strings.navigation_link_team}</a>
+          <a className='item' href='/'>{strings.navigation_link_contacts}</a>
+        </div>
+        <Components.SocialIcons />
+        <div className='contacts'>
+          <div className='item'>{strings.contact_phone_a}</div>
+          <div className='item'>{strings.contact_phone_b}</div>
+          <a className='item' href={'mailto:' + strings.contact_email}>{strings.contact_email}</a>
+          <div className='item divider' />
+          <div className='item'>
+            <button className='button is-medium is-primary'>{strings.cover_contact_us}</button>
           </div>
         </div>
       </div>
