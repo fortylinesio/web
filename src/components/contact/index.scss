@@ -1,4 +1,21 @@
 
 .contact {
-  margin-top: 64px;
+  margin-top: 128px;
+
+  .call-back {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    .call-back-form {
+      max-width: 350px;
+      width: 100%;
+      padding: 32px;
+      background-color: #555;
+
+      *:not(input) {
+        color: white;
+      }
+    }
+  }
 }

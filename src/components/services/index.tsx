@@ -11,6 +11,8 @@ export const Services = () => {
         <div className='title is-2' dangerouslySetInnerHTML={{ __html: strings.services_title }} />
       </div>
 
+      <div style={{ height: 64 }} />
+
       <div className='columns list'>
         <div className='column'>
           <div className='item has-text-centered'>

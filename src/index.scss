@@ -14,9 +14,7 @@
 @import '../node_modules/bulma/sass/layout/_all.sass';
 
 .container {
-  max-width: 1000px !important;
-  padding-left: 16px;
-  padding-right: 16px;
+  max-width: 960px !important;
 }
 
 @media(max-width: 767px) {

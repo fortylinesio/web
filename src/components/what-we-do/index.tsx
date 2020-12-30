@@ -24,7 +24,7 @@ export const WhatWeDo = () => {
         <div className='column'>
           <div className='title is-4'>{strings.what_we_do_first_title}</div>
           <div />
-          <div className='subtitle is-5'>{strings.what_we_do_first_subtitle}</div>
+          <div className='subtitle is-6'>{strings.what_we_do_first_subtitle}</div>
         </div>
       </div>
 
@@ -32,7 +32,7 @@ export const WhatWeDo = () => {
         <div className='column'>
           <div className='title is-4'>{strings.what_we_do_second_title}</div>
           <div />
-          <div className='subtitle is-5'>{strings.what_we_do_second_subtitle}</div>
+          <div className='subtitle is-6'>{strings.what_we_do_second_subtitle}</div>
         </div>
         <div className='column'>
           <img src={ImageSecond} />
@@ -46,7 +46,7 @@ export const WhatWeDo = () => {
         <div className='column'>
           <div className='title is-4'>{strings.what_we_do_third_title}</div>
           <div />
-          <div className='subtitle is-5'>{strings.what_we_do_third_subtitle}</div>
+          <div className='subtitle is-6'>{strings.what_we_do_third_subtitle}</div>
         </div>
       </div>
 
@@ -54,7 +54,7 @@ export const WhatWeDo = () => {
         <div className='column'>
           <div className='title is-4'>{strings.what_we_do_fourth_title}</div>
           <div />
-          <div className='subtitle is-5'>{strings.what_we_do_fourth_subtitle}</div>
+          <div className='subtitle is-6'>{strings.what_we_do_fourth_subtitle}</div>
         </div>
         <div className='column'>
           <img src={ImageFourth} />

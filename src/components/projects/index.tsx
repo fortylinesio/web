@@ -14,6 +14,8 @@ export const Projects = () => {
         <div className='title is-2' dangerouslySetInnerHTML={{ __html: strings.projects_title }} />
       </div>
 
+      <div style={{ height: 64 }} />
+
       <div className='columns is-variable is-8 is-align-items-center'>
         <div className='column'>
           <div className='title is-4'>{strings.projects_tezbus_title}</div>
@@ -23,6 +25,8 @@ export const Projects = () => {
           <img src={ImageTezBus} />
         </div>
       </div>
+
+      <div style={{ height: 64 }} />
 
       <div className='columns is-variable is-8 is-align-items-center'>
         <div className='column'>

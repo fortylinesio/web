@@ -16,7 +16,9 @@ export const Contact = () => {
             <div>
               <div className='has-text-grey-light'>{strings.contact_address_label}:</div>
               <br />
-              <div className=''>{strings.contact_address_location}</div>
+              <div className=''>
+                <strong>{strings.contact_address_location}</strong>
+              </div>
               <div className=''>{strings.contact_address_street}</div>
               <div className=''>{strings.contact_email}</div>
               <br />
@@ -28,32 +30,32 @@ export const Contact = () => {
           </div>
         </div>
         <div className='column'>
-          <form className=''>
-            <div className='left-spaced with-line'>
+          <div className='call-back'>
+            <form className='call-back-form'>
               <div className='title is-2' dangerouslySetInnerHTML={{ __html: strings.call_back_title }} />
-            </div>
 
-            <div className='field'>
-              <label htmlFor='name' className='label'>{strings.call_back_placeholder_name}</label>
-              <div className='control'>
-                <input id='name' className='input' />
+              <div className='field'>
+                <label htmlFor='name' className='label'>{strings.call_back_placeholder_name}</label>
+                <div className='control'>
+                  <input id='name' className='input' />
+                </div>
               </div>
-            </div>
-            <div className='field'>
-              <label htmlFor='phone' className='label'>{strings.call_back_placeholder_phone}</label>
-              <div className='control'>
-                <input id='phone' className='input' type='tel' placeholder='+996 550 123 456' />
+              <div className='field'>
+                <label htmlFor='phone' className='label'>{strings.call_back_placeholder_phone}</label>
+                <div className='control'>
+                  <input id='phone' className='input' type='tel' placeholder='+996 550 123 456' />
+                </div>
               </div>
-            </div>
-            <div className='field'>
-              <label htmlFor='email' className='label'>{strings.call_back_placeholder_email}</label>
-              <div className='control'>
-                <input id='email' className='input' type='email' placeholder='user@mail.com' />
+              <div className='field'>
+                <label htmlFor='email' className='label'>{strings.call_back_placeholder_email}</label>
+                <div className='control'>
+                  <input id='email' className='input' type='email' placeholder='user@mail.com' />
+                </div>
               </div>
-            </div>
-            <br />
-            <button className='button is-medium is-primary'>{strings.call_back_send}</button>
-          </form>
+              <br />
+              <button className='button is-fullwidth is-medium is-primary'>{strings.call_back_send}</button>
+            </form>
+          </div>
         </div>
       </div>
     </div>

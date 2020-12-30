@@ -16,7 +16,7 @@ const en = {
   /**
    * Cover
    */
-  'cover_title': 'We build your<br />innovational future',
+  'cover_title': 'We build your innovational future',
   'cover_contact_us': 'Contact Us',
 
   /**
