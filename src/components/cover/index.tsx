@@ -1,6 +1,6 @@
 import * as ReactRedux from 'react-redux';
-import * as Components from '../';
 import * as AppRedux from '../../redux';
+import * as Components from '../';
 
 import './index.scss';
 
@@ -46,23 +46,7 @@ export const Cover = () => {
               </div>
             </div>
           </div>
-          <div className='social-icons'>
-            <a className='icon facebook' href='/'>
-              <i className='fab fa-facebook' />
-            </a>
-            <a className='icon twitter' href='/'>
-              <i className='fab fa-twitter' />
-            </a>
-            <a className='icon instagram' href='/'>
-              <i className='fab fa-instagram' />
-            </a>
-            <a className='icon telegram' href='/'>
-              <i className='fab fa-telegram' />
-            </a>
-            <a className='icon whatsapp' href='/'>
-              <i className='fab fa-whatsapp' />
-            </a>
-          </div>
+          <Components.SocialIcons />
         </div>
       </div>
     </div>

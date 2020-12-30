@@ -9,9 +9,6 @@ export const SocialIcons = () => {
       <a className='icon twitter' href='/'>
         <i className='fab fa-twitter' />
       </a>
-      <a className='icon instagram' href='/'>
-        <i className='fab fa-instagram' />
-      </a>
       <a className='icon telegram' href='/'>
         <i className='fab fa-telegram' />
       </a>
