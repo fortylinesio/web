@@ -20,11 +20,10 @@ export const Cover = () => {
   return (
     <div className='cover'>
       <div className='container'>
-        <div className='is-hidden-desktop pt-6 pb-6'>
+        <div className='is-hidden-desktop pt-3 pb-6'>
           <div className='has-text-centered'>
             <div className='subtitle is-3' dangerouslySetInnerHTML={{ __html: strings.cover_title }} />
             <Components.Illustration />
-            <div style={{ height: 32 }} />
             <button className='button is-primary is-medium' onClick={jumpToContacts}>
               {strings.cover_contact_us}
             </button>
