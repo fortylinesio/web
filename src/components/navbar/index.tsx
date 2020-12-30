@@ -17,7 +17,6 @@ export const Navbar = () => {
     if (isActive) {
       window.scrollTo(0, 0);
     }
-    document.documentElement.style.overflow = isActive ? 'hidden' : 'auto';
   }, [isActive])
 
   const handleBurgerClick = () => {
