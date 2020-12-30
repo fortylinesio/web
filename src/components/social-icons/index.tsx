@@ -3,8 +3,8 @@ import './index.scss';
 export const SocialIcons = () => {
   return (
     <div className='social-icons'>
-      <a className='icon facebook' href='/'>
-        <i className='fab fa-facebook' />
+      <a className='icon' href='https://github.com/fortylinesio' target='_blank' rel='noreferrer'>
+        <i className='fab fa-github' />
       </a>
       <a className='icon twitter' href='/'>
         <i className='fab fa-twitter' />

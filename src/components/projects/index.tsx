@@ -23,7 +23,7 @@ export const Projects = () => {
             <div className=''>{strings.projects_tezbus_subtitle}</div>
           </div>
           <div className='column'>
-            <img src={ImageTezBus} />
+            <img src={ImageTezBus} alt='4+2=42' />
           </div>
         </div>
 
@@ -31,7 +31,7 @@ export const Projects = () => {
 
         <div className='columns has-text-centered-mobile is-8 is-align-items-center reverse-on-mobile'>
           <div className='column'>
-            <img src={ImageChkSnd} />
+            <img src={ImageChkSnd} alt='4+2=42' />
           </div>
           <div className='column'>
             <div className='title is-4'>{strings.projects_chksnd_title}</div>
