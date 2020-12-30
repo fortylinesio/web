@@ -17,6 +17,17 @@ export const Navbar = () => {
     if (isActive) {
       window.scrollTo(0, 0);
     }
+
+    const menu = document.getElementById('mobile-menu');
+    if (menu) {
+      if (isActive) {
+        menu.style.height = '100%';
+      } else {
+        setTimeout(() => {
+          menu.style.height = '0';
+        }, 320);
+      }
+    }
   }, [isActive])
 
   const handleBurgerClick = () => {
@@ -40,7 +51,7 @@ export const Navbar = () => {
   }
 
   return (
-    <div className='navbar is-transparent'>
+    <div className='navbar is-spaced is-transparent'>
       <div className='container'>
         <div className='navbar-brand'>
           <div className='navbar-item'>
@@ -71,31 +82,47 @@ export const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className={'mobile-menu' + (isActive ? ' is-active' : '')}>
-        <div className='languages'>
-          <a className={'item' + (lang === 'en' ? ' is-active' : '')} href='/' onClick={handleLanguageClick('en')}>
-            {strings.navigation_lang_en}
-          </a>
-          <a className={'item' + (lang === 'de' ? ' is-active' : '')} href='/' onClick={handleLanguageClick('de')}>
-            {strings.navigation_lang_de}
-          </a>
-          <a className={'item' + (lang === 'ru' ? ' is-active' : '')} href='/' onClick={handleLanguageClick('ru')}>
-            {strings.navigation_lang_ru}
-          </a>
-        </div>
-        <div className='navigation'>
-          <Components.NavigationLinks onClick={() => {
-            setActive(false);
-          }} />
-        </div>
-        <Components.SocialIcons />
-        <div className='contacts'>
-          <div className='item'>{strings.contact_phone_a}</div>
-          <div className='item'>{strings.contact_phone_b}</div>
-          <a className='item' href={'mailto:' + strings.contact_email}>{strings.contact_email}</a>
-          <div className='item divider' />
-          <div className='item'>
-            <button className='button is-medium is-primary' onClick={jumpToContacts}>{strings.cover_contact_us}</button>
+      <div id='mobile-menu' className={'mobile-menu' + (isActive ? ' is-active' : '')}>
+        <div className='overlay' />
+        <div className='content'>
+          <div className='header'>
+            <div className='title is-4'>
+              {strings.navigation_title}
+            </div>
+            <a className='close' href='/' onClick={e => {
+              e.preventDefault();
+              setActive(false);
+            }}>
+              <span className='icon'>
+                <i className='fa fa-times fa-lg' />
+              </span>
+            </a>
+          </div>
+          <div className='languages'>
+            <a className={'item' + (lang === 'en' ? ' is-active' : '')} href='/' onClick={handleLanguageClick('en')}>
+              {strings.navigation_lang_en}
+            </a>
+            <a className={'item' + (lang === 'de' ? ' is-active' : '')} href='/' onClick={handleLanguageClick('de')}>
+              {strings.navigation_lang_de}
+            </a>
+            <a className={'item' + (lang === 'ru' ? ' is-active' : '')} href='/' onClick={handleLanguageClick('ru')}>
+              {strings.navigation_lang_ru}
+            </a>
+          </div>
+          <div className='navigation'>
+            <Components.NavigationLinks onClick={() => {
+              setActive(false);
+            }} />
+          </div>
+          <Components.SocialIcons />
+          <div className='contacts'>
+            <div className='item'>{strings.contact_phone_a}</div>
+            <div className='item'>{strings.contact_phone_b}</div>
+            <a className='item' href={'mailto:' + strings.contact_email}>{strings.contact_email}</a>
+            <div className='item divider' />
+            <div className='item'>
+              <button className='button is-medium is-primary' onClick={jumpToContacts}>{strings.cover_contact_us}</button>
+            </div>
           </div>
         </div>
       </div>
