@@ -1,7 +1,5 @@
 
 .contact {
-  margin-top: 128px;
-
   .call-back {
     display: flex;
     flex-direction: row;
@@ -15,6 +13,17 @@
 
       *:not(input) {
         color: white;
+      }
+    }
+  }
+}
+
+@media(max-width: 767px) {
+  .contact {
+    .call-back {
+      .call-back-form {
+        padding: 24px;
+        max-width: 100%;
       }
     }
   }

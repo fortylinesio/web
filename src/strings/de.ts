@@ -16,7 +16,7 @@ const de = {
   /**
    * Cover
    */
-  'cover_title': 'Wir bauen Ihre innovative Zukunft',
+  'cover_title': 'Wir bauen Ihre<br/>innovative Zukunft',
   'cover_contact_us': 'Kontaktiere uns',
 
   /**

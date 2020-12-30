@@ -6,14 +6,14 @@ import './index.scss';
 export const Contact = () => {
   const strings = ReactRedux.useSelector((state: AppRedux.AppState) => state.strings);
   return (
-    <div className='container contact'>
+    <div className='container contact app-section'>
       <div className='columns'>
         <div className='column'>
           <div className='left-spaced with-line'>
             <div className='title is-2' dangerouslySetInnerHTML={{ __html: strings.cover_contact_us }} />
           </div>
           <div className='left-spaced'>
-            <div>
+            <div className='has-text-centered-mobile'>
               <div className='has-text-grey-light'>{strings.contact_address_label}:</div>
               <br />
               <div className=''>

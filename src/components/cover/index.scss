@@ -8,9 +8,9 @@
   & > .container {
     position: relative;
 
-    & > .social-icons {
+    .social-icons {
       position: absolute;
-      bottom: 64px;
+      bottom: 32px;
       right: 0;
       display: flex;
       flex-direction: column;
@@ -19,8 +19,8 @@
         width: 32px;
         height: 32px;
         border-radius: 16px;
-        color: #F5ECE7;
-        background-color: #959595;
+        color: white;
+        background-color: #999999;
 
         &:not(:last-child) {
           margin-bottom: 12px;

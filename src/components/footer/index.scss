@@ -1,8 +1,42 @@
 @import '../../variables.scss';
 
 .footer {
-  margin-top: 128px;
+  padding: 0;
+  padding-top: 64px;
+  padding-bottom: 32px;
   background-color: #F3F3F3;
+
+  blockquote {
+    font-family: 'Special Elite', cursive;
+    font-weight: 100;
+    font-size: 24px;
+    font-style: italic;
+    max-width: 500px;
+    line-height: 1.4;
+    position: relative;
+    margin: 0;
+  }
+  
+  blockquote:before,
+  blockquote:after {
+    position: absolute;
+    color: #ccc;
+    font-size: 64px;
+    width: 32px;
+    height: 32px;
+  }
+  
+  blockquote:before {
+    content: '“';
+    left: -40px;
+    top: -12px;
+  }
+  
+  blockquote:after {
+    content: '”';
+    right: -24px;
+    bottom: 12px;
+  }
 
   .navigation {
     display: flex;
@@ -22,16 +56,6 @@
       &:last-child {
         padding-right: 32px;
       }
-    }
-  }
-
-  @media(max-width: 767px) {
-    .navigation {
-      flex-direction: column;
-    }
-
-    .item {
-      padding: 16px !important;
     }
   }
 
@@ -75,3 +99,47 @@
     }
   }
 }
+
+@media(max-width: 767px) {
+  .footer {
+    padding-top: 32px;
+    background-color: white;
+
+    blockquote {
+      margin: auto 24px;
+      max-width: 100%;
+    }
+    
+    .navigation {
+      flex-direction: column;
+      margin-top: 32px;
+      margin-bottom: 32px;
+      
+      .item {
+        background-color: white;
+        padding: 8px 16px !important;
+      }
+    }
+
+    .social-icons {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      & > *:not(:last-child) {
+        margin-right: 16px;
+      }
+    }
+  }
+}
+
+@media(max-width: 960px) {
+  .footer {
+    blockquote {
+      margin: auto 24px;
+    }
+  }
+}
+
+
