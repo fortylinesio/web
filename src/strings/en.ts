@@ -25,23 +25,23 @@ const en = {
   'what_we_do_title': 'What we do?',
   'what_we_do_first_title': 'Build the right thing.',
   'what_we_do_first_subtitle': 'Our top experts will use a mind map to help you think through your concept and find the right way to create it.',
-  'what_we_do_second_title': 'Launch faster, with peace of mind.',
-  'what_we_do_second_subtitle': 'Our top experts will use a mind map to help you think through your concept and find the right way to create it.',
-  'what_we_do_third_title': 'Beautiful design, tailored for you.',
-  'what_we_do_third_subtitle': 'Our top experts will use a mind map to help you think through your concept and find the right way to create it.',
-  'what_we_do_fourth_title': 'The best tech, managed for you.',
-  'what_we_do_fourth_subtitle': 'Our top experts will use a mind map to help you think through your concept and find the right way to create it.',
+  'what_we_do_second_title': 'Start quickly and calmly.',
+  'what_we_do_second_subtitle': 'We will take care of a quick product launch for your end users.',
+  'what_we_do_third_title': 'Beautiful design, especially for you.',
+  'what_we_do_third_subtitle': 'Our specialists will provide a unique design for your product.',
+  'what_we_do_fourth_title': 'The best experts, the best technology.',
+  'what_we_do_fourth_subtitle': 'Our technical experts will help you build your product from modern technologies.',
 
   /**
    * Services
    */
   'services_title': 'Services',
   'services_web_title': 'Web development',
-  'services_web_subtitle': 'We create interesting and engaging digital products that will be used by thousands of people.',
+  'services_web_subtitle': 'Development of sites for various purposes - from business cards to corporate portals.',
   'services_mobile_title': 'Mobile App',
-  'services_mobile_subtitle': 'We create interesting and engaging digital products that will be used by thousands of people.',
+  'services_mobile_subtitle': 'Android / IOS app Development.',
   'services_bots_title': 'Chat bots',
-  'services_bots_subtitle': 'We create interesting and engaging digital products that will be used by thousands of people.',
+  'services_bots_subtitle': 'Professional development of chatbots for websites and social networks.',
 
   /**
    * Projects
@@ -129,17 +129,6 @@ const en = {
         { media: 'github', url: 'https://github.com/UzVPD' },
       ],
     },
-    {
-      'first_name': 'Aibek',
-      'last_name': 'Mazhitov',
-      'age': 27,
-      'position': 'IT Consultant',
-      'profile_url': '/team/aibek-mazhitov.png',
-      'links': [
-        { media: 'linkedin', url: 'https://linkedin.com/in/aimazh' },
-        { media: 'github', url: 'https://github.com/aimazh' },
-      ],
-    },
   ],
 
   /**
@@ -148,11 +137,11 @@ const en = {
   'contact_title': 'Contact',
   'contact_address_label': 'Address',
   'contact_address_location': 'Kyrgyzstan, Bishkek',
-  'contact_address_street': 'St. Maldybaeva 7/1',
-  'contact_email': 'contact@fortylines.com',
+  'contact_address_street': 'St. Zhibek-Zholy 479/a',
+  'contact_email': 'fortylineswork@gmail.com',
   'contact_phone_label': 'Tel.',
-  'contact_phone_a': '+996 (706) 306 750',
-  'contact_phone_b': '+996 (706) 306 750',
+  'contact_phone_a': '+996 (557) 710 446',
+  'contact_phone_b': '+996 (557) 710 446',
 
   /**
    * Call Back
