@@ -23,9 +23,9 @@ const de = {
    * What we do?
    */
   'what_we_do_title': 'Was wir tun?',
-  'what_we_do_first_title': 'Bauen Sie das richtige Produkt.',
-  'what_we_do_first_subtitle': 'Unsere Top-Experten verwenden eine Mind Map, um Ihnen zu helfen, Ihr Konzept zu durchdenken und den richtigen Weg zur Erstellung zu finden.',
-  'what_we_do_second_title': 'Starten Sie schnell und ruhig.',
+  'what_we_do_first_title': 'Wir bauen das richtige Produkt.',
+  'what_we_do_first_subtitle': 'Unsere Experten verwenden eine Mind Map, um Ihnen zu helfen, Ihr Konzept zu durchdenken und den richtigen Weg zur Erstellung zu finden.',
+  'what_we_do_second_title': 'Wir starten schnell und ruhig.',
   'what_we_do_second_subtitle': 'Wir kümmern uns um eine schnelle Produkteinführung für Ihre Endanwender.',
   'what_we_do_third_title': 'Schönes Design, extra für Sie.',
   'what_we_do_third_subtitle': 'Unsere Experten erstellen ein einzigartiges Design für Ihr Produkt.',
@@ -62,7 +62,7 @@ const de = {
       'last_name': 'Sheranov',
       'age': 22,
       'position': 'CEO',
-      'profile_url': 'https://picsum.photos/300/400',
+      'profile_url': '/team/azhybek-sheranov.png',
       'links': [
         { media: 'linkedin', url: 'https://www.linkedin.com/in/ажыбек-шеранов-6095b01b4' },
       ],
@@ -72,7 +72,7 @@ const de = {
       'last_name': 'Limareva',
       'age': 23,
       'position': 'UI/UX Designer',
-      'profile_url': 'https://picsum.photos/300/400',
+      'profile_url': '/team/maria-limareva.png',
       'links': [
         { media: 'linkedin', url: 'https://www.linkedin.com/in/maria-limareva-2967371b9/' },
         { media: 'behance', url: 'https://www.behance.net/mariaLim' },
@@ -83,7 +83,7 @@ const de = {
       'last_name': 'Aibekov',
       'age': 22,
       'position': 'Backend Engineer',
-      'profile_url': 'https://picsum.photos/300/400',
+      'profile_url': '/team/aidar-aibekov.png',
       'links': [
         { media: 'linkedin', url: 'https://www.linkedin.com/in/aidar-aibekov-1b0687132/' },
         { media: 'github', url: 'https://github.com/aidar4j' },
@@ -94,8 +94,9 @@ const de = {
       'last_name': 'Tynchtykova',
       'age': 22,
       'position': 'UI/UX Designer',
-      'profile_url': 'https://picsum.photos/300/400',
+      'profile_url': '/team/meerim-tynchtykova.png',
       'links': [
+        { media: 'linkedin', url: 'https://www.linkedin.com/in/meerim-tynchtykova-3481641b1/' },
       ],
     },
     {
@@ -103,7 +104,7 @@ const de = {
       'last_name': 'Tashmatov',
       'age': 23,
       'position': 'Backend Engineer',
-      'profile_url': 'https://picsum.photos/300/400',
+      'profile_url': '/team/farkhat-tashmatov.png',
       'links': [
         { media: 'linkedin', url: 'https://www.linkedin.com/in/farkhat-tashmatov-8626791a8/' },
         { media: 'github', url: 'https://github.com/Farkhat' },
@@ -114,8 +115,9 @@ const de = {
       'last_name': 'Sagynbek',
       'age': 21,
       'position': 'Frontend Developer',
-      'profile_url': 'https://picsum.photos/300/400',
+      'profile_url': '/team/almira-sagynbek.png',
       'links': [
+        { media: 'linkedin', url: 'https://www.linkedin.com/in/%D0%B0%D0%BB%D1%8C%D0%BC%D0%B8%D1%80%D0%B0-%D1%81%D0%B0%D0%B3%D1%8B%D0%BD%D0%B1%D0%B5%D0%BA-44b78b1b1/'},
       ],
     },
     {
@@ -123,9 +125,9 @@ const de = {
       'last_name': 'Pak',
       'age': 23,
       'position': 'Frontend Developer',
-      'profile_url': 'https://picsum.photos/300/400',
+      'profile_url': '/team/vlad-pak.png',
       'links': [
-        { media: 'linkedin', url: 'https://www.linkedin.com/in/vlad-pak-589452122/' },
+        { media: 'linkedin', url: 'http://linkedin.com/in/vpd-vlad' },
         { media: 'github', url: 'https://github.com/UzVPD' },
       ],
     },
