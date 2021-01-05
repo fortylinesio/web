@@ -121,6 +121,16 @@ const ru = {
       ],
     },
     {
+      'first_name': 'Султанбек',
+      'last_name': 'Темирбаев',
+      'age': 21,
+      'position': 'СММ специалист',
+      'profile_url': '/team/sultanbek-temirbaev.png',
+      'links': [
+        { media: 'linkedin', url: 'https://www.linkedin.com/in/sultanbek-temirbaev-9a87691a8' },
+      ],
+    },
+    {
       'first_name': 'Влад',
       'last_name': 'Пак',
       'age': 23,

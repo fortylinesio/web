@@ -121,6 +121,16 @@ const de = {
       ],
     },
     {
+      'first_name': 'Sultanbek',
+      'last_name': 'Temirbaev',
+      'age': 21,
+      'position': 'SMM Specialist',
+      'profile_url': '/team/sultanbek-temirbaev.png',
+      'links': [
+        { media: 'linkedin', url: 'https://www.linkedin.com/in/sultanbek-temirbaev-9a87691a8' },
+      ],
+    },
+    {
       'first_name': 'Vlad',
       'last_name': 'Pak',
       'age': 23,
