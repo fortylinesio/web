@@ -97,6 +97,7 @@ const ru = {
       'profile_url': '/team/meerim-tynchtykova.png',
       'links': [
         { media: 'linkedin', url: 'https://www.linkedin.com/in/meerim-tynchtykova-3481641b1/' },
+        { media: 'behance', url: 'https://www.behance.net/meerimMe' },
       ],
     },
     {
