@@ -17,10 +17,13 @@ export const Footer = () => {
         <div className='has-text-centered'>
           <div className='links'>
             <a href='/'>{strings.footer_legal_terms}</a>
-            <p>|</p>
             <a href='/'>{strings.footer_legal_privacy}</a>
           </div>
-          <p dangerouslySetInnerHTML={{ __html: strings.footer_copyright }} />
+          <p>
+            <span>{new Date().getFullYear()}</span>
+            <span>&nbsp;</span>
+            <span dangerouslySetInnerHTML={{ __html: strings.footer_copyright }} />
+          </p>
         </div>
       </div>
     </div>

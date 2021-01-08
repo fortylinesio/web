@@ -171,7 +171,7 @@ const en = {
   'footer_slogan': 'We keep your software short and simple, 40 lines enough.',
   'footer_legal_terms': 'Terms Of Use',
   'footer_legal_privacy': 'Privacy Policy',
-  'footer_copyright': '&copy; Fortylines 2020',
+  'footer_copyright': '&copy; Fortylines',
 };
 
 export default en;

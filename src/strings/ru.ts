@@ -172,7 +172,7 @@ const ru = {
   'footer_slogan': 'Мы держим ваше программное обеспечение коротким и простым, достаточно 40 строк.',
   'footer_legal_terms': 'Условия использования',
   'footer_legal_privacy': 'Политика конфиденциальности',
-  'footer_copyright': '&copy; Fortylines 2020',
+  'footer_copyright': '&copy; Fortylines',
 };
 
 export default ru;

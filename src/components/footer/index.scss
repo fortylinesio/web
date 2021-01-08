@@ -72,6 +72,11 @@
     & > *:not(:last-child) {
       margin-right: 8px;
     }
+    
+    & > *:not(:last-child)::after {
+      content: '|';
+      margin-left: 8px;
+    }
   }
 
   .social-icons {
@@ -113,6 +118,20 @@
       position: relative;
       flex-direction: row;
       justify-content: center;
+    }
+
+    .links {
+      flex-direction: column;
+      margin-bottom: 16px;
+      
+      & > *:not(:last-child) {
+        margin: 0;
+      }
+
+      & > *:not(:last-child)::after {
+        content: '';
+        margin-left: 0;
+      }
     }
   }
 }
