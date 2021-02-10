@@ -3,7 +3,7 @@ import * as AppRedux from '../../redux';
 
 import './index.scss';
 
-import ImageTezBus from './image-tezbus.svg';
+import ImageTezBus from './image-tezbus.png';
 import ImageChkSnd from './image-chksnd.png';
 
 export const Projects = () => {
