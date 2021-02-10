@@ -9,7 +9,7 @@ export const Contact = () => {
     <div id='contacts' className='container contact app-section'>
       <div className='columns'>
         <div className='column'>
-          <div className='left-spaced with-line'>
+          <div className='left-spaced with-line has-text-centered-mobile'>
             <div className='title is-2' dangerouslySetInnerHTML={{ __html: strings.cover_contact_us }} />
           </div>
           <div className='left-spaced'>

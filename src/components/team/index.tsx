@@ -11,7 +11,7 @@ export const Team = () => {
 
   return (
     <div id='team' className='container team app-section'>
-      <div className='left-spaced with-line'>
+      <div className='left-spaced with-line has-text-centered-mobile'>
         <div className='title is-2' dangerouslySetInnerHTML={{ __html: strings.team_title }} />
       </div>
 

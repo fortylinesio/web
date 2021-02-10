@@ -13,7 +13,7 @@ export const WhatWeDo = () => {
   return (
     <div id='what-we-do' className='container what-we-do app-section'>
 
-      <div className='left-spaced with-line'>
+      <div className='left-spaced with-line has-text-centered-mobile'>
         <div className='title is-2' dangerouslySetInnerHTML={{ __html: strings.what_we_do_title }} />
       </div>
 

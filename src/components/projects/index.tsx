@@ -10,7 +10,7 @@ export const Projects = () => {
   const strings = ReactRedux.useSelector((state: AppRedux.AppState) => state.strings);
   return (
     <div id='projects' className='container projects app-section'>
-      <div className='left-spaced with-line'>
+      <div className='left-spaced with-line has-text-centered-mobile'>
         <div className='title is-2' dangerouslySetInnerHTML={{ __html: strings.projects_title }} />
       </div>
 
