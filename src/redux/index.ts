@@ -1,3 +1,4 @@
+import Cookies from 'js-cookie';
 import * as Strings from '../strings';
 
 export interface AppState {
@@ -19,14 +20,25 @@ export const SetLanguage = (targetLang: Strings.Lang): SetLanguageAction => ({
   targetLang: targetLang,
 })
 
+const lang = '' + Cookies.get('FORTYLINES_LANG') || 'en'
+
+var strings: Strings.Type
+switch (lang) {
+  case 'ru': strings = Strings.ru; break;
+  case 'de': strings = Strings.de; break;
+  default: strings = Strings.en; break;
+}
+
 const defaultState: AppState = {
-  lang: 'en',
-  strings: Strings.en,
+  lang: lang,
+  strings: strings,
 }
 
 export const appReducer = (state: AppState = defaultState, action: AppActionTypes): AppState => {
   switch (action.type) {
     case SET_LANGUAGE:
+      Cookies.set('FORTYLINES_LANG', action.targetLang);
+
       var strings: Strings.Type
       switch (action.targetLang) {
         case 'ru': strings = Strings.ru; break;
