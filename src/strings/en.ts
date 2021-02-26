@@ -146,7 +146,7 @@ const en = {
       'links': [
         { media: 'linkedin', url: 'http://linkedin.com/in/vpd-vlad' },
         { media: 'github', url: 'https://github.com/UzVPD' },
-        { media: 'envelope', url: 'mailto:vpd@fortylines.io' },
+        { media: 'envelope', url: 'mailto:vlad@fortylines.io' },
       ],
     },
   ],
