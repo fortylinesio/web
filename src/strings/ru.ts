@@ -65,6 +65,7 @@ const ru = {
       'profile_url': '/team/azhybek-sheranov.png',
       'links': [
         { media: 'linkedin', url: 'https://www.linkedin.com/in/ажыбек-шеранов-6095b01b4' },
+        { media: 'envelope', url: 'mailto:azhybek@fortylines.io' },
       ],
     },
     {
@@ -76,6 +77,7 @@ const ru = {
       'links': [
         { media: 'linkedin', url: 'https://www.linkedin.com/in/maria-limareva-2967371b9/' },
         { media: 'behance', url: 'https://www.behance.net/mariaLim' },
+        { media: 'envelope', url: 'mailto:maria@fortylines.io' },
       ],
     },
     {
@@ -87,6 +89,7 @@ const ru = {
       'links': [
         { media: 'linkedin', url: 'https://www.linkedin.com/in/aidar-aibekov-1b0687132/' },
         { media: 'github', url: 'https://github.com/aidar4j' },
+        { media: 'envelope', url: 'mailto:aidar@fortylines.io' },
       ],
     },
     {
@@ -98,6 +101,7 @@ const ru = {
       'links': [
         { media: 'linkedin', url: 'https://www.linkedin.com/in/meerim-tynchtykova-3481641b1/' },
         { media: 'behance', url: 'https://www.behance.net/meerimMe' },
+        { media: 'envelope', url: 'mailto:meerim@fortylines.io' },
       ],
     },
     {
@@ -109,6 +113,7 @@ const ru = {
       'links': [
         { media: 'linkedin', url: 'https://www.linkedin.com/in/farkhat-tashmatov-8626791a8/' },
         { media: 'github', url: 'https://github.com/Farkhat' },
+        { media: 'envelope', url: 'mailto:farkhat@fortylines.io' },
       ],
     },
     {
@@ -119,6 +124,7 @@ const ru = {
       'profile_url': '/team/almira-sagynbek.png',
       'links': [
         { media: 'linkedin', url: 'https://www.linkedin.com/in/%D0%B0%D0%BB%D1%8C%D0%BC%D0%B8%D1%80%D0%B0-%D1%81%D0%B0%D0%B3%D1%8B%D0%BD%D0%B1%D0%B5%D0%BA-44b78b1b1/'},
+        { media: 'envelope', url: 'mailto:almira@fortylines.io' },
       ],
     },
     {
@@ -140,6 +146,7 @@ const ru = {
       'links': [
         { media: 'linkedin', url: 'http://linkedin.com/in/vpd-vlad' },
         { media: 'github', url: 'https://github.com/UzVPD' },
+        { media: 'envelope', url: 'mailto:vpd@fortylines.io' },
       ],
     },
   ],

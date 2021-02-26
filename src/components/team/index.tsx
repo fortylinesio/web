@@ -38,7 +38,13 @@ export const Team = () => {
                     {member.links.map((link, j) => (
                       <a key={j} href={link.url} target='_blank' rel='noreferrer'>
                         <span className={'icon ' + link.media}>
-                          <i className={'fab fa-lg fa-' + link.media} />
+                          {(() => {
+                            if(link.media == 'envelope') {
+                              return <i className={'fas fa-lg fa-' + link.media} />
+                            } else {
+                              return <i className={'fab fa-lg fa-' + link.media} />
+                            }
+                          })()}  
                         </span>
                       </a>
                     ))}
