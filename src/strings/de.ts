@@ -51,6 +51,8 @@ const de = {
   'projects_tezbus_subtitle': 'Tezbus ist ein online-transportsuchdienst in Kirgisistan. Mit Tezbus können Benutzer Intercity-Routen mit Auto, Bus und Zug schnell und effizient finden. Transportfahrer können ihre Fahrten veröffentlichen und Mitfahrer finden.',
   'projects_chksnd_title': 'ChkSnd',
   'projects_chksnd_subtitle': 'Haben Sie schon einmal Musikvideos mit einer Audio-Visualisierung auf YouTube gesehen? Wissen Sie, wie diese Videos aufgebaut sind? Hier gehts!<br/><br/>ChkSnd (Abkürzung für Check this Sound) - App zum Erstellen eines tollen Musikvideos mit einer Audio-Visualisierung wie im Stil von Trap Nation und Monstercat. Probieren Sie es aus!',
+  'projects_umut_title': 'Stiftung "Umut bulagy"',
+  'projects_umut_subtitle': 'Website für die öffentliche Stiftung "Umut Bulagy" unter der Initiative der First Lady der Kirgisischen Republik Aigul Zhaparova.',
 
   /**
    * Team

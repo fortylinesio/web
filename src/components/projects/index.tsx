@@ -5,6 +5,7 @@ import './index.scss';
 
 import ImageTezBus from './image-tezbus.png';
 import ImageChkSnd from './image-chksnd.png';
+import ImageUmut from './image-umut2.png';
 
 export const Projects = () => {
   const strings = ReactRedux.useSelector((state: AppRedux.AppState) => state.strings);
@@ -38,6 +39,19 @@ export const Projects = () => {
             <div className='' dangerouslySetInnerHTML={{ __html: strings.projects_chksnd_subtitle }} />
           </div>
         </div>
+
+        <div className='app-section-spacer' />
+
+        <div className='columns has-text-centered-mobile is-8 is-align-items-center reverse-on-mobile'>
+          <div className='column'>
+            <div className='title is-4'>{strings.projects_umut_title}</div>
+            <div className='' dangerouslySetInnerHTML={{ __html: strings.projects_umut_subtitle }} />
+          </div>
+          <div className='column'>
+            <img src={ImageUmut} alt='4+2=42' />
+          </div>
+        </div> 
+
       </div>
     </div>
   )

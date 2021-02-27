@@ -51,6 +51,8 @@ const en = {
   'projects_tezbus_subtitle': 'Tezbus is an online transport search service in Kyrgyzstan. Tezbus lets users find intercity routes by car, bus, and train quickly and efficiently. Transport drivers can publish their trips and find companions.',
   'projects_chksnd_title': 'ChkSnd',
   'projects_chksnd_subtitle': 'Do you ever see music videos with an audio visualization on YouTube? Do you know how these videos are made of? Here you go!<br/><br/>ChkSnd (shorthand for Check this Sound) - App to create an awesome music video with an audio visualization like in Trap Nation and Monstercat style. Check it out!',
+  'projects_umut_title': 'Foundation "Umut bulagy"',
+  'projects_umut_subtitle': 'Website for the public foundation "Umut Bulagy" under the initiative of the First Lady of the Kyrgyz Republic Aigul Zhaparova.',
 
   /**
    * Team
