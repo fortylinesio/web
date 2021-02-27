@@ -21,7 +21,7 @@ export const Cover = () => {
     <div className='cover'>
       <div className='container'>
         <div className='is-hidden-desktop pt-3 pb-6'>
-          <div className='has-text-centered'>
+          <div className='has-text-centered' >
             <div className='subtitle is-3' dangerouslySetInnerHTML={{ __html: strings.cover_title }} />
             <Components.Illustration />
             <button className='button is-primary is-medium' onClick={jumpToContacts}>

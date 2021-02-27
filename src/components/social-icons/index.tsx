@@ -3,6 +3,9 @@ import './index.scss';
 export const SocialIcons = () => {
   return (
     <div className='social-icons'>
+      <a className='icon github' href='https://clutch.co/profile/fortylines-io' target='_blank' rel='noreferrer'>
+      <i className='fas fa-copyright' />
+      </a>
       <a className='icon github' href='https://github.com/fortylinesio' target='_blank' rel='noreferrer'>
         <i className='fab fa-github' />
       </a>
