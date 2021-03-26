@@ -60,17 +60,6 @@ const ru = {
   'team_title': 'Команда',
   'team_members': [
     {
-      'first_name': 'Ажыбек',
-      'last_name': 'Шеранов',
-      'age': 22,
-      'position': 'Генеральный директор',
-      'profile_url': '/team/azhybek-sheranov.png',
-      'links': [
-        { media: 'linkedin', url: 'https://www.linkedin.com/in/ажыбек-шеранов-6095b01b4' },
-        { media: 'envelope', url: 'mailto:azhybek@fortylines.io' },
-      ],
-    },
-    {
       'first_name': 'Мария',
       'last_name': 'Лимарева',
       'age': 23,
@@ -138,6 +127,17 @@ const ru = {
       'links': [
         { media: 'linkedin', url: 'https://www.linkedin.com/in/sultanbek-temirbaev-9a87691a8' },
       ],
+    },    
+    {
+      'first_name': 'Санжар',
+      'last_name': 'Рыскулов',
+      'age': 23,
+      'position': 'Менеджер по продажам',
+      'profile_url': '/team/sanjar-sadykbekov.jpg',
+      'links': [
+        { media: 'linkedin', url: 'https://www.linkedin.com/in/sanzhar-sadykbekov-25226719b' },
+        { media: 'github', url: 'https://github.com/sunsanjar' },
+      ],
     },
     {
       'first_name': 'Влад',
@@ -151,6 +151,39 @@ const ru = {
         { media: 'envelope', url: 'mailto:vlad@fortylines.io' },
       ],
     },
+    {
+      'first_name': 'Дамир',
+      'last_name': 'Абдыбап уулу',
+      'age': 23,
+      'position': 'Backend разработчик',
+      'profile_url': '/team/damir-abdybap.jpg',
+      'links': [
+        { media: 'linkedin', url: 'https://www.linkedin.com/in/damirbek-abdybap-uulu-972aa21ba/' },
+        { media: 'github', url: 'https://github.com/Damirbek1997' },
+      ],
+    },
+    {
+      'first_name': 'Адилет',
+      'last_name': 'Рыскулов',
+      'age': 23,
+      'position': 'Backend разработчик',
+      'profile_url': '/team/adilet-ryskulov.jpg',
+      'links': [
+        { media: 'linkedin', url: 'https://www.linkedin.com/in/adilet-ryskulov-b4a11920a/' },
+        { media: 'github', url: 'https://github.com/ectomorph312' },
+      ],
+    },
+    {
+      'first_name': 'Ажыбек',
+      'last_name': 'Шеранов',
+      'age': 22,
+      'position': 'Генеральный директор',
+      'profile_url': '/team/azhybek-sheranov.png',
+      'links': [
+        { media: 'linkedin', url: 'https://www.linkedin.com/in/ажыбек-шеранов-6095b01b4' },
+        { media: 'envelope', url: 'mailto:azhybek@fortylines.io' },
+      ],
+    }, 
   ],
 
   /**

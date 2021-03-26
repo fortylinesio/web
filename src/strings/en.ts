@@ -60,17 +60,6 @@ const en = {
   'team_title': 'Team',
   'team_members': [
     {
-      'first_name': 'Azhybek',
-      'last_name': 'Sheranov',
-      'age': 22,
-      'position': 'CEO',
-      'profile_url': '/team/azhybek-sheranov.png',
-      'links': [
-        { media: 'linkedin', url: 'https://www.linkedin.com/in/ажыбек-шеранов-6095b01b4' },
-        { media: 'envelope', url: 'mailto:azhybek@fortylines.io' },
-      ],
-    },
-    {
       'first_name': 'Maria',
       'last_name': 'Limareva',
       'age': 23,
@@ -140,6 +129,17 @@ const en = {
       ],
     },
     {
+      'first_name': 'Sanzhar',
+      'last_name': 'Ryskulov',
+      'age': 23,
+      'position': 'Sales Manager',
+      'profile_url': '/team/sanjar-sadykbekov.jpg',
+      'links': [
+        { media: 'linkedin', url: 'https://www.linkedin.com/in/sanzhar-sadykbekov-25226719b' },
+        { media: 'github', url: 'https://github.com/sunsanjar' },
+      ],
+    },
+    {
       'first_name': 'Vlad',
       'last_name': 'Pak',
       'age': 23,
@@ -151,6 +151,39 @@ const en = {
         { media: 'envelope', url: 'mailto:vlad@fortylines.io' },
       ],
     },
+    {
+      'first_name': 'Damir',
+      'last_name': 'Abdybap uulu',
+      'age': 23,
+      'position': 'Backend Developer',
+      'profile_url': '/team/damir-abdybap.jpg',
+      'links': [
+        { media: 'linkedin', url: 'https://www.linkedin.com/in/damirbek-abdybap-uulu-972aa21ba/' },
+        { media: 'github', url: 'https://github.com/Damirbek1997' },
+      ],
+    },
+    {
+      'first_name': 'Adilet',
+      'last_name': 'Ryskulov',
+      'age': 23,
+      'position': 'Backend Developer',
+      'profile_url': '/team/adilet-ryskulov.jpg',
+      'links': [
+        { media: 'linkedin', url: 'https://www.linkedin.com/in/adilet-ryskulov-b4a11920a/' },
+        { media: 'github', url: 'https://github.com/ectomorph312' },
+      ],
+    },
+    {
+      'first_name': 'Azhybek',
+      'last_name': 'Sheranov',
+      'age': 22,
+      'position': 'CEO',
+      'profile_url': '/team/azhybek-sheranov.png',
+      'links': [
+        { media: 'linkedin', url: 'https://www.linkedin.com/in/ажыбек-шеранов-6095b01b4' },
+        { media: 'envelope', url: 'mailto:azhybek@fortylines.io' },
+      ],
+    },    
   ],
 
   /**
