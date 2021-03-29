@@ -148,7 +148,7 @@ const de = {
       'last_name': 'Ryskulov',
       'age': 23,
       'position': 'Sales Manager',
-      'profile_url': '/team/sanjar-sadykbekov.jpg',
+      'profile_url': '/team/sanzhar-sadykbekov.jpg',
       'links': [
         { media: 'linkedin', url: 'https://www.linkedin.com/in/sanzhar-sadykbekov-25226719b' },
         { media: 'github', url: 'https://github.com/sunsanjar' },
