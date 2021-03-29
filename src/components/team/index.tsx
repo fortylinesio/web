@@ -39,7 +39,7 @@ export const Team = () => {
                       <a key={j} href={link.url} target='_blank' rel='noreferrer'>
                         <span className={'icon ' + link.media}>
                           {(() => {
-                            if(link.media == 'envelope') {
+                            if(link.media === 'envelope') {
                               return <i className={'fas fa-lg fa-' + link.media} />
                             } else {
                               return <i className={'fab fa-lg fa-' + link.media} />

@@ -47,12 +47,27 @@ const ru = {
    * Projects
    */
   'projects_title': 'Наши проекты',
-  'projects_tezbus_title': 'TezBus',
-  'projects_tezbus_subtitle': 'Tezbus - это онлайн сервис поиска транспорта в Кыргызстане. Tezbus позволяет пользователям быстро и эффективно находить междугородние маршруты на машинах, автобусах и поездах. Водители транспорта могут публиковать свои поездки и находить компаньонов.',
-  'projects_chksnd_title': 'ChkSnd',
-  'projects_chksnd_subtitle': 'Вы когда-нибудь видели музыкальные клипы со звуковой визуализацией на YouTube? Знаете ли вы, из чего состоят эти видео? Держите!<br/><br/>ChkSnd (сокращение от Check this Sound) - приложение для создания потрясающего музыкального клипа со звуковой визуализацией, как в стиле Trap Nation и Monstercat. Зацените!',
-  'projects_umut_title': 'Фонд "Умут булагы"',
-  'projects_umut_subtitle': 'Сайт для общественного фонда "Умут булагы" под инициативой первой леди Кыргызской Республики Айгуль Жапаровой.',
+  'projects_website': 'Веб-сайт',
+  'projects_items': [
+    {
+      'title': 'Фонд "Умут булагы"',
+      'subtitle': 'Сайт для общественного фонда "Умут булагы" под инициативой первой леди Кыргызской Республики Айгуль Жапаровой.',
+      'image_url': '/images/projects/image-umut.png',
+      'link': 'https://umutbulagy.org/',
+    },
+    {
+      'title': 'TezBus',
+      'subtitle': 'Tezbus - это онлайн сервис поиска транспорта в Кыргызстане. Tezbus позволяет пользователям быстро и эффективно находить междугородние маршруты на машинах, автобусах и поездах. Водители транспорта могут публиковать свои поездки и находить компаньонов.',
+      'image_url': '/images/projects/image-tezbus.png',
+      'link': 'https://tezbus.com',
+    },
+    {
+      'title': 'ChkSnd',
+      'subtitle': 'Вы когда-нибудь видели музыкальные клипы со звуковой визуализацией на YouTube? Знаете ли вы, из чего состоят эти видео? Держите!<br/><br/>ChkSnd (сокращение от Check this Sound) - приложение для создания потрясающего музыкального клипа со звуковой визуализацией, как в стиле Trap Nation и Monstercat. Зацените!',
+      'image_url': '/images/projects/image-chksnd.png',
+      'link': 'https://chksnd.github.io/',
+    },
+  ],
 
   /**
    * Team
@@ -114,7 +129,7 @@ const ru = {
       'position': 'Frontend разработчик',
       'profile_url': '/team/almira-sagynbek.png',
       'links': [
-        { media: 'linkedin', url: 'https://www.linkedin.com/in/%D0%B0%D0%BB%D1%8C%D0%BC%D0%B8%D1%80%D0%B0-%D1%81%D0%B0%D0%B3%D1%8B%D0%BD%D0%B1%D0%B5%D0%BA-44b78b1b1/'},
+        { media: 'linkedin', url: 'https://www.linkedin.com/in/%D0%B0%D0%BB%D1%8C%D0%BC%D0%B8%D1%80%D0%B0-%D1%81%D0%B0%D0%B3%D1%8B%D0%BD%D0%B1%D0%B5%D0%BA-44b78b1b1/' },
         { media: 'envelope', url: 'mailto:almira@fortylines.io' },
       ],
     },
@@ -127,7 +142,7 @@ const ru = {
       'links': [
         { media: 'linkedin', url: 'https://www.linkedin.com/in/sultanbek-temirbaev-9a87691a8' },
       ],
-    },    
+    },
     {
       'first_name': 'Санжар',
       'last_name': 'Рыскулов',
@@ -183,7 +198,7 @@ const ru = {
         { media: 'linkedin', url: 'https://www.linkedin.com/in/ажыбек-шеранов-6095b01b4' },
         { media: 'envelope', url: 'mailto:azhybek@fortylines.io' },
       ],
-    }, 
+    },
   ],
 
   /**

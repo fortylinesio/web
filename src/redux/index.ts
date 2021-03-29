@@ -20,7 +20,7 @@ export const SetLanguage = (targetLang: Strings.Lang): SetLanguageAction => ({
   targetLang: targetLang,
 })
 
-const lang = '' + Cookies.get('FORTYLINES_LANG') || 'en'
+const lang = Cookies.get('FORTYLINES_LANG') || 'en'
 
 var strings: Strings.Type
 switch (lang) {

@@ -31,7 +31,7 @@ const de = {
   'what_we_do_third_subtitle': 'Unsere Experten erstellen ein einzigartiges Design für Ihr Produkt.',
   'what_we_do_fourth_title': 'Die besten Experten, die besten Technologien.',
   'what_we_do_fourth_subtitle': 'Unsere technischen Experten helfen Ihnen, Ihr Produkt mit der heutigen Technologie zu entwickeln.',
-  
+
   /**
    * Services
    */
@@ -47,12 +47,27 @@ const de = {
    * Projects
    */
   'projects_title': 'Unsere Projekte',
-  'projects_tezbus_title': 'TezBus',
-  'projects_tezbus_subtitle': 'Tezbus ist ein online-transportsuchdienst in Kirgisistan. Mit Tezbus können Benutzer Intercity-Routen mit Auto, Bus und Zug schnell und effizient finden. Transportfahrer können ihre Fahrten veröffentlichen und Mitfahrer finden.',
-  'projects_chksnd_title': 'ChkSnd',
-  'projects_chksnd_subtitle': 'Haben Sie schon einmal Musikvideos mit einer Audio-Visualisierung auf YouTube gesehen? Wissen Sie, wie diese Videos aufgebaut sind? Hier gehts!<br/><br/>ChkSnd (Abkürzung für Check this Sound) - App zum Erstellen eines tollen Musikvideos mit einer Audio-Visualisierung wie im Stil von Trap Nation und Monstercat. Probieren Sie es aus!',
-  'projects_umut_title': 'Stiftung "Umut bulagy"',
-  'projects_umut_subtitle': 'Website für die öffentliche Stiftung "Umut Bulagy" unter der Initiative der First Lady der Kirgisischen Republik Aigul Zhaparova.',
+  'projects_website': 'Website',
+  'projects_items': [
+    {
+      'title': 'Stiftung "Umut bulagy"',
+      'subtitle': 'Website für die öffentliche Stiftung "Umut Bulagy" unter der Initiative der First Lady der Kirgisischen Republik Aigul Zhaparova.',
+      'image_url': '/images/projects/image-umut.png',
+      'link': 'https://umutbulagy.org/',
+    },
+    {
+      'title': 'TezBus',
+      'subtitle': 'Tezbus ist ein online-transportsuchdienst in Kirgisistan. Mit Tezbus können Benutzer Intercity-Routen mit Auto, Bus und Zug schnell und effizient finden. Transportfahrer können ihre Fahrten veröffentlichen und Mitfahrer finden.',
+      'image_url': '/images/projects/image-tezbus.png',
+      'link': 'https://tezbus.com',
+    },
+    {
+      'title': 'ChkSnd',
+      'subtitle': 'Haben Sie schon einmal Musikvideos mit einer Audio-Visualisierung auf YouTube gesehen? Wissen Sie, wie diese Videos aufgebaut sind? Hier gehts!<br/><br/>ChkSnd (Abkürzung für Check this Sound) - App zum Erstellen eines tollen Musikvideos mit einer Audio-Visualisierung wie im Stil von Trap Nation und Monstercat. Probieren Sie es aus!',
+      'image_url': '/images/projects/image-chksnd.png',
+      'link': 'https://chksnd.github.io/',
+    },
+  ],
 
   /**
    * Team
@@ -114,7 +129,7 @@ const de = {
       'position': 'Frontend Developer',
       'profile_url': '/team/almira-sagynbek.png',
       'links': [
-        { media: 'linkedin', url: 'https://www.linkedin.com/in/%D0%B0%D0%BB%D1%8C%D0%BC%D0%B8%D1%80%D0%B0-%D1%81%D0%B0%D0%B3%D1%8B%D0%BD%D0%B1%D0%B5%D0%BA-44b78b1b1/'},
+        { media: 'linkedin', url: 'https://www.linkedin.com/in/%D0%B0%D0%BB%D1%8C%D0%BC%D0%B8%D1%80%D0%B0-%D1%81%D0%B0%D0%B3%D1%8B%D0%BD%D0%B1%D0%B5%D0%BA-44b78b1b1/' },
         { media: 'envelope', url: 'mailto:almira@fortylines.io' },
       ],
     },
@@ -172,7 +187,7 @@ const de = {
         { media: 'linkedin', url: 'https://www.linkedin.com/in/adilet-ryskulov-b4a11920a/' },
         { media: 'github', url: 'https://github.com/ectomorph312' },
       ],
-    }, 
+    },
     {
       'first_name': 'Azhybek',
       'last_name': 'Sheranov',

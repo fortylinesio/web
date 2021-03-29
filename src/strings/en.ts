@@ -47,12 +47,27 @@ const en = {
    * Projects
    */
   'projects_title': 'Our Projects',
-  'projects_tezbus_title': 'TezBus',
-  'projects_tezbus_subtitle': 'Tezbus is an online transport search service in Kyrgyzstan. Tezbus lets users find intercity routes by car, bus, and train quickly and efficiently. Transport drivers can publish their trips and find companions.',
-  'projects_chksnd_title': 'ChkSnd',
-  'projects_chksnd_subtitle': 'Do you ever see music videos with an audio visualization on YouTube? Do you know how these videos are made of? Here you go!<br/><br/>ChkSnd (shorthand for Check this Sound) - App to create an awesome music video with an audio visualization like in Trap Nation and Monstercat style. Check it out!',
-  'projects_umut_title': 'Foundation "Umut bulagy"',
-  'projects_umut_subtitle': 'Website for the public foundation "Umut Bulagy" under the initiative of the First Lady of the Kyrgyz Republic Aigul Zhaparova.',
+  'projects_website': 'Website',
+  'projects_items': [
+    {
+      'title': 'Foundation "Umut bulagy"',
+      'subtitle': 'Website for the public foundation "Umut Bulagy" under the initiative of the First Lady of the Kyrgyz Republic Aigul Zhaparova.',
+      'image_url': '/images/projects/image-umut.png',
+      'link': 'https://umutbulagy.org/',
+    },
+    {
+      'title': 'TezBus',
+      'subtitle': 'Tezbus is an online transport search service in Kyrgyzstan. Tezbus lets users find intercity routes by car, bus, and train quickly and efficiently. Transport drivers can publish their trips and find companions.',
+      'image_url': '/images/projects/image-tezbus.png',
+      'link': 'https://tezbus.com',
+    },
+    {
+      'title': 'ChkSnd',
+      'subtitle': 'Do you ever see music videos with an audio visualization on YouTube? Do you know how these videos are made of? Here you go!<br/><br/>ChkSnd (shorthand for Check this Sound) - App to create an awesome music video with an audio visualization like in Trap Nation and Monstercat style. Check it out!',
+      'image_url': '/images/projects/image-chksnd.png',
+      'link': 'https://chksnd.github.io/',
+    },
+  ],
 
   /**
    * Team
